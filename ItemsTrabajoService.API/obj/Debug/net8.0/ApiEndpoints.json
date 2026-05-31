@@ -1,0 +1,39 @@
+[
+  {
+    "ContainingType": "ItemsTrabajoService.API.Controllers.ItemsTrabajoController",
+    "Method": "RegistrarYDistribuir",
+    "RelativePath": "api/ItemsTrabajo/distribuir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevoItem",
+        "Type": "ItemsTrabajoService.API.Models.ItemTrabajo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItemsTrabajoService.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ItemsTrabajoService.API.WeatherForecast, ItemsTrabajoService.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

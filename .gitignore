@@ -1,0 +1,13 @@
+## Carpetas de compilación de .NET
+[Bb]in/
+[Ob]j/
+.vs/
+
+## Archivos de Base de Datos Local (SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+## Configuraciones del usuario de Visual Studio
+*.user
+*.suo
