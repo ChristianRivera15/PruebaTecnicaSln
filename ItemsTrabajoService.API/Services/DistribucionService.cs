@@ -22,6 +22,18 @@ namespace ItemsTrabajoService.API.Services
                     .FirstOrDefault();
             }
 
+            usuarioElegido.ItemsPendientes.Add(item);
+            
+            //Ordenamos su lista interna de pendientes priorizando por relevancia Alta y luego por Fecha de Entrega
+            usuarioElegido.ItemsPendientes = usuarioElegido.ItemsPendientes
+                .OrderByDescending(x => x.Relevancia == RelevanciaEnum.Alta)
+                .ThenBy(x => x.FechaEntrega)
+                .ToList();
+
+            item.UsernameAsignado = usuarioElegido.UserName;
+
+
+
             return usuarioElegido;
 
         }

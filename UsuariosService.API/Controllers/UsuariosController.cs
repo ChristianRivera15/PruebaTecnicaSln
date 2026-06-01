@@ -13,7 +13,8 @@ namespace UsuariosService.API.Controllers
         private static readonly List<Usuario> _usuariosExistentes = new()
         {
             new Usuario { Id = 1, UserName = "Usuario A" },
-            new Usuario { Id = 2, UserName = "Usuario B" }
+            new Usuario { Id = 2, UserName = "Usuario B" },
+            new Usuario { Id = 2, UserName = "Usuario C" }
         };
 
 

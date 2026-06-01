@@ -1,13 +1,18 @@
-## Carpetas de compilación de .NET
-[Bb]in/
-[Ob]j/
+# Carpetas de compilación y salidas binarias
+**/bin/
+**/obj/
+
+# Archivos ejecutables y librerías dinámicas compiladas
+*.exe
+*.dll
+*.pdb
+
+# Archivos de caché de compilación de Razor/Core
+*.json
+*.cache
+
+# Archivos temporales de herramientas de publicación o IDE
 .vs/
-
-## Archivos de Base de Datos Local (SQLite)
-*.db
-*.db-shm
-*.db-wal
-
-## Configuraciones del usuario de Visual Studio
+.idea/
 *.user
 *.suo
