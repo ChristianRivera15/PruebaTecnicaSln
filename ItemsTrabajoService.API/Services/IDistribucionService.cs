@@ -4,6 +4,6 @@ namespace ItemsTrabajoService.API.Services
 {
     public interface IDistribucionService
     {
-        bool AsignarItem(ItemTrabajo item, List<UsuarioResumen> usuarios);
+        public UsuarioResumen AsignarItem(ItemTrabajo item, List<UsuarioResumen> usuarios);
     }
 }

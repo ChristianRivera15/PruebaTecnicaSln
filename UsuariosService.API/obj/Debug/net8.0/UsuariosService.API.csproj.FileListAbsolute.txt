@@ -129,6 +129,7 @@ C:\repos\CHRISTIAN_RIVERA\PruebaTecnicaSln\UsuariosService.API\obj\Debug\net8.0\
 C:\repos\CHRISTIAN_RIVERA\PruebaTecnicaSln\UsuariosService.API\obj\Debug\net8.0\UsuariosService.API.csproj.CoreCompileInputs.cache
 C:\repos\CHRISTIAN_RIVERA\PruebaTecnicaSln\UsuariosService.API\obj\Debug\net8.0\UsuariosService.API.MvcApplicationPartsAssemblyInfo.cs
 C:\repos\CHRISTIAN_RIVERA\PruebaTecnicaSln\UsuariosService.API\obj\Debug\net8.0\UsuariosService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\repos\CHRISTIAN_RIVERA\PruebaTecnicaSln\UsuariosService.API\obj\Debug\net8.0\UsuariosService.API.sourcelink.json
 C:\repos\CHRISTIAN_RIVERA\PruebaTecnicaSln\UsuariosService.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\repos\CHRISTIAN_RIVERA\PruebaTecnicaSln\UsuariosService.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\repos\CHRISTIAN_RIVERA\PruebaTecnicaSln\UsuariosService.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
